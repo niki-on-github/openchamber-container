@@ -20,7 +20,7 @@ jobs:
       uses: actions/checkout@v4
       with:
         repository: openchamber/openchamber
-        ref: v${OPENCHAMBER_VERSION}
+        ref: v${{ env.OPENCHAMBER_VERSION }}
         path: .
 
     - name: Prepare
