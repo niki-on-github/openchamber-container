@@ -17,7 +17,7 @@ jobs:
     if: "!contains(github.event.head_commit.message, '[ci-skip]')"
     steps:
     - name: Checkout other repo
-      uses: actions/checkout@v6
+      uses: actions/checkout@v7
       with:
         repository: openchamber/openchamber
         ref: v${{ env.OPENCHAMBER_VERSION }}
