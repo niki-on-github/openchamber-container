@@ -9,7 +9,7 @@ on:
 
 env:
   REGISTRY_IMAGE: ghcr.io/${{ github.repository }}
-  OPENCHAMBER_VERSION: 1.13.8
+  OPENCHAMBER_VERSION: 1.13.9
 
 jobs:
   build:
